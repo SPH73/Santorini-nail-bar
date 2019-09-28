@@ -1,27 +1,219 @@
-.alert{
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:300,400,500,600,800&display=swap');
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*colours
+#7d7d89 - grey rgb(125,125,137)
+#5d5860 - dark grey rgb(93,88,96)
+#ac9eb2 - pink grey rgb(172,158,178)
+#f8f1f9 - white shade rgb(248,241,249)
+#323038 - charcoal rgb(50,48,56)
+#090b0e - black rgb(9,11,14)
+#e2d9e4 - pale-lilac
+#605d65 - darker pink grey (icon hover)
+#fcf9fc - white-dazzle (button hover)
+*/
+
+body{
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+}
+
+.secondary{
+    font-weight: 300;
+}
+
+
+
+
+
+
+/*----------background-colours / font-colours---*/
+
+
+
+
+.bg-color-alert,
+.bg-color-nav,
+.bg-color-footer {
+    background-color: #090b0e;
+}
+
+.bg-color-home,
+.bg-color-testimonials,
+.bg-color-contact,
+.bg-color-form{
+    background-color: #e2d9e4;
+
+}
+
+.bg-color-about,
+.bg-color-gallery {
+    background-color: #f8f1f9;
+}
+
+/*-------------------------------buttons---*/
+
+.btn{
+    font-weight: 600;
+    vertical-align: middle;
+    margin-top: 5px;
+    background-color: #ac9eb2; 
+}
+
+
+.btn-book{
+    font-size: .75rem;
+}    
+    
+.btn-contact{
+    font-size: 1rem;
+}
+
+
+.btn-link:hover {
+    color: #323038;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/*-------------------------------alert---*/
+
+.news {
+    color: #f8f1f9;
+    margin: 10px 0;
+}
+
+
+/*----------------------------headings---*/
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 .section-heading {
+    margin: 20px 0 10px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+
+.heading-footer {
+    color: #7d7d89;
+
+}
+
+/*----------------------------------nav---*/
+
+.navbar-dark,
+.navbar-nav,
+.nav-link,
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: #ac9eb2;
+}
+
+.navbar-dark,
+.navbar-toggler,
+.navbar-toggler-icon,
+.logo {
+    border-color: #ac9eb2;
+}
+
+button:focus {
+  outline: 1px solid;
+  outline: 5px auto;
+}
+
+
+
+/*----------------------------sections----*/
+
+.lead{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+
+.home,
+.gallery,
+.testimonials,
+.about{
+    padding-bottom: 30px;
+}
+
+.home {}
+
+
+
+
+.gallery .lead{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+testimonials .card-header{
+    font-family: 'Raleway', sans-serif;
+    font-size: .75rem;
+}
+
+.testimonials .card {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+
+.testimonials .card .blockquote{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.5rem;
+}
+
+.about {}
+
+.contact{
     
 }
 
-.logo{
-    
-}
 
-.navbar{
-    
-}
+/*-------------------------------footer---*/
 
-/*-----------links---*/
-
-
-/*----------social media---*/
-.social-links{
-    
+.copyright{
+    font-size: 8px;
+    font-color: #f8f1f9;
 }
 
 
-/*-----------footer---*/
-.footer-links{
-    
+/*----------footer icons---*/
+
+.footer-icons li a i{
+    width: 32px;
+    height: 32px;
+    padding: 8px 4px;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    background-color: #7d7d89;
+    color: #f8f1f9;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-
+.footer-icons li a i:hover{
+    background-color: #605d65;
+}
