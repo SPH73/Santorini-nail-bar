@@ -83,7 +83,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col text-center mt-3">
-                        <button type="button" class="btn btn-outline-light btn-book" style="color: #605d65">Online Bookings 24/7</button>
+                        <a target="_blank" href="https://santorininailbar.setmore.com/resourcebookingpage/r57bff761e90bbf21e127710c4cb2a44ea211d5d0" class="btn btn-outline-light btn-book" role="button">Book Online Here 24/7</a>
                     </div>
                 </div>
             </div>
@@ -223,11 +223,12 @@
                 </div>
             </div>
         </div>
-
-        <!-------------------quotes--->
-        <div class="container">
+        
+        <!-----card-column for larger screens only--->
+        
+        <div class="container d-none d-md-block ">
             <div class="row">
-                <div class="card-group">
+                <div class="card-columns">
                     <div class="card">
                         <div class="card-header">
                             <p>Service with a smile</p>
@@ -260,6 +261,80 @@
                                 <footer class="blockquote-footer">Anonymous - East Rand</footer>
                             </blockquote>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------carousel cards for smaller screens only--->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 d-md-none">
+
+                    <!--------indicators--->
+
+                    <div id="testimonials" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonials" data-slide-to="1"></li>
+                            <li data-target="#testimonials" data-slide-to="2"></li>
+                            <li data-target="#testimonials" data-slide-to="3"></li>
+
+                        </ol>
+
+                        <!-------slides--->
+
+                        <div class="carousel-inner my-auto">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <p>Service with a smile</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <blockquote class="blockquote mb-0">
+                                            <p>Samantha's service is always on point and so is her technique! I always feel pampered and love how my nails look when she is finished.</p>
+                                            <footer class="blockquote-footer">Mary-Anne - Benoni</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <p>A+ creations</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <blockquote class="blockquote mb-0">
+                                            <p>Wow! I just got my new nails; I love them! The sky is the limit with Sam! :)</p>
+                                            <footer class="blockquote-footer">Laura - Kempton Park</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <p>Brilliant</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <blockquote class="blockquote mb-0">
+                                            <p>Absolutely brilliant. I love the compliments I get on my nails! Thanks Samantha!</p>
+                                            <footer class="blockquote-footer">Anonymous - East Rand</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------controls--->
+
+                        <a class="carousel-control-prev" href="#testimonials" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#testimonials" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -308,7 +383,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm text-center">
-                        <button type="button" class="btn btn-outline-light btn-book">Book an appointment</button>
+                        <a target="_blank" href="https://santorininailbar.setmore.com/resourcebookingpage/r57bff761e90bbf21e127710c4cb2a44ea211d5d0" class="btn btn-outline-light btn-book" role="button">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -323,79 +398,76 @@
         <div class="container-fluid bg-color-form">
 
             <p class="text-center"><strong></strong>Do you have a question?</strong><br>Please do not hesitate to contact me directly.</p>
-            <p class="secondary text-center"Please do not hesitate to contact me directly.</p>
+            <p class="secondary text-center" Please do not hesitate to contact me directly.</p>
 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <form name="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" netlify>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <form name="contact-form" action="POST" data-netify="true">
-
-                            <!--personal info fields-->
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <div class="mb-2">
-                                        <label for="fname">Your details</label>
-                                        <input type="text" id="fname" name="fname" placeholder="First name" class="form-control">
-                                        <input type="text" id="lname" name="lname" placeholder="Last name" class="form-control">
-                                        <input type="text" id="email" name="email" placeholder="name@example.com" class="form-control">
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!--subject text field-->
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="mb-0">
-                                        <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- form text area-->
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="mb-0">
-                                        <textarea type="text" id="message" name="message" rows="3" placeholder="Type your question" class="form-control md-textarea"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--contact button-->
-                            <div class="container">
+                                <!--personal info fields-->
                                 <div class="row">
-                                    <div class="col text-center mb-3">
-                                        <button type="button" class="btn btn-outline-light btn-contact" style="color: #605d65">Send</button>
+                                    <div class="col-sm-8">
+                                        <div class="mb-2">
+                                            <label for="fname">Your details</label>
+                                            <input type="text" id="fname" name="fname" placeholder="First name" class="form-control" required>
+                                            <input type="text" id="lname" name="lname" placeholder="Last name" class="form-control" required>
+                                            <input type="text" id="email" name="email" placeholder="name@example.com" class="form-control" required>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!--subject text field-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="mb-0">
+                                            <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control" required>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                        </form>
-                    </div>
+                                <!-- form text area-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="mb-0">
+                                            <textarea type="text" id="message" name="message" rows="3" placeholder="Type your question" class="form-control md-textarea" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <!--contact button-->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <button type="submit" class="btn btn-outline-light btn-contact" style="color: #605d65">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="visibility: hidden">
+                                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                </p>
+                            </form>
+                        </div>
 
+                        <!--contact info-->
+                        <div class="col-sm-5 text-center my-auto">
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fa fa-envelope"></i>
+                                    <p>santorininailsofficial@gmail.com</p>
+                                </li>
+                                <li><i class="fa fa-phone"></i>
+                                    <p>0827272690</p>
+                                </li>
+                                <li><i class="fa fa-map-marker"></i>
+                                    <p>Kempton Park, Gauteng</p>
+                                </li>
 
-                    <!--contact info-->
-                    <div class="col-sm-5 text-center">
-                        <ul class="list-unstyled mb-0">
-                            <li><i class="fa fa-envelope"></i>
-                                <p>santorininailsofficial@gmail.com</p>
-                            </li>
-                            <li><i class="fa fa-phone"></i>
-                                <p>0827272690</p>
-                            </li>
-                            <li><i class="fa fa-map-marker"></i>
-                                <p>Kempton Park, Gauteng</p>
-                            </li>
-
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <!--Grid column-->
-
-            </div>
         </div>
     </section>
 
