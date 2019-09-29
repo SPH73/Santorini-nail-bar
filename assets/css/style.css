@@ -17,6 +17,16 @@ font-family: 'Raleway', sans-serif;
 #fcf9fc - white-dazzle (button hover)
 */
 
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body{
    font-family: 'Lato', sans-serif;
    font-weight: 400;
@@ -86,6 +96,16 @@ body{
 
 /*-------------------------------alert---*/
 
+.alert{
+    
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0;
+}
+    
+
 .news {
     color: #f8f1f9;
     margin: 10px 0;
@@ -113,20 +133,23 @@ h5 .section-heading {
 }
 
 /*----------------------------------nav---*/
+.navrbar{
+    z-index: 1;
+}
 
 .navbar-dark,
 .navbar-nav,
 .nav-link,
 .navbar-toggler,
 .navbar-toggler-icon {
-    color: #ac9eb2;
+    color: #f8f1f9;
 }
 
 .navbar-dark,
 .navbar-toggler,
 .navbar-toggler-icon,
 .logo {
-    border-color: #ac9eb2;
+    border-color: #f8f1f9;
 }
 
 button:focus {
