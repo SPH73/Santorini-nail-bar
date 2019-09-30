@@ -433,7 +433,7 @@
                     <div class="row">
                         <div class="col-sm-7">
 
-                            <form name="contact-form" method="POST" netlify-honeypot="bot-field" data-netlify-recaptach="true" data-netlify="true">
+                            <form name="contact-form" method="POST" data-netlify-recaptach="true" data-netlify="true">
 
                                 <!--personal info fields-->
                                 <div class="row">
@@ -452,7 +452,7 @@
                                 <!--subject text field-->
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <div class="mb-0">
+                                        <div>
                                             <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control" required>
                                         </div>
                                     </div>
@@ -461,7 +461,7 @@
                                 <!-- form question textarea-->
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <div class="mb-0">
+                                        <div>
                                             <textarea type="text" id="message" name="message" rows="3" placeholder="Type your question" class="form-control md-textarea" required></textarea>
                                         </div>
                                     </div>
@@ -469,18 +469,16 @@
 
                                 <!--contact submit button-->
                                 <div class="container">
-                                    <div class="row">
+                                    <div class="row mb-4">
                                         <div class="col text-center">
                                             <input type="submit" value="Submit" class="btn btn-outline-light btn-contact" style="color: #605d65">
                                         </div>
                                     </div>
                                 </div>
-                                <p style="visibility: hidden">
-                                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                                </p>
                                 
                                 <div data-netlify-recaptach="true">
                                 </div>
+                                
                             </form>
                         </div>
 
