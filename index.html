@@ -433,7 +433,7 @@
                     <div class="row">
                         <div class="col-sm-7">
 
-                            <form name="contact-form" method="POST" data-netlify-recaptach="true" data-netlify="true">
+                            <form name="contact-form" method="POST" netlify-honeypot="bot-field" netlify>
 
                                 <!--personal info fields-->
                                 <div class="row">
@@ -443,10 +443,8 @@
                                             <input type="text" id="fname" name="fname" placeholder="First name" class="form-control" required>
                                             <input type="text" id="lname" name="lname" placeholder="Last name" class="form-control" required>
                                             <input type="text" id="email" name="email" placeholder="name@example.com" class="form-control" required>
-
                                         </div>
                                     </div>
-
                                 </div>
 
                                 <!--subject text field-->
@@ -466,19 +464,18 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <!--contact submit button-->
-                                <div class="container">
-                                    <div class="row mb-4">
-                                        <div class="col text-center">
-                                            <input type="submit" value="Submit" class="btn btn-outline-light btn-contact" style="color: #605d65">
-                                        </div>
+                                
+                                <div class="row">
+                                    <!--contact submit button-->
+                                    <div class="col-6">
+                                        <input type="submit" value="Submit" class="btn btn-outline-light btn-contact" style="color: #605d65">
+                                    </div>
+                                    <!-- form bot-field -->
+                                    <div class="col-6">
+                                        <label style="visibility: hidden">Don’t fill this out if you're human: <input name="bot-field"></label>
                                     </div>
                                 </div>
-                                
-                                <div data-netlify-recaptach="true">
-                                </div>
-                                
+
                             </form>
                         </div>
 
