@@ -2,21 +2,23 @@
 
 ### Introduction and Purpose
 
-I am developing this website for the owner with a focus on providing the users with information about her service using her portfolio in a gallery and specifically for them to easily make and manage their own appointments independently, from within the site itself. The business goal is to free the owner up to concentrate her time solely (as far as is reasonably possible) on the clients in front of her rather than the administrative aspect of her business. This site is a *work in progress* that will be updated with new content added and/or removed when necessary and appropriate.
+I am developing this website as my MS1 project (Code Institute's Dimploma in Software Development) and for the owner, with a focus on providing the users with information about her service via her portfolio in a gallery and specifically for them to easily make and manage their own appointments independently, from within the site itself. The business goal is to free the owner up to concentrate her time solely (as far as is reasonably possible) on the clients in front of her rather than the administrative aspect of her business. This site is a *work in progress* that will be updated with new content added and/or removed when necessary and appropriate.
 
 ##### UX
 
-Since the audience is expected to be of varying ability, albeit mostly tech savvy, my aim in the design was simplicity, creating an intuitive site that provides easy access to the main purpose - the information or feature the user is looking for. I have made the sections visually distinguishable and separate from each other using a colour palette generated from a portion of the header (logo) image ![Color Sample](assets/images/color-sample.PNG) using [PaletteGenerator](https://palettegenerator.com/). The colours are light where necessary and dark where possible to blend with the logo. I have been concerned primarily with making the booking buttons stand out and seem obvious for visually impaired users and avoid the need for too much scrolling to reach the highest priority content.
+Since the audience is expected to be of varying ability, albeit mostly tech savvy, my aim in the design was simplicity, creating an intuitive site that provides easy access to the main purpose - the information or feature the user is looking for. I have made the sections visually distinguishable and separate from each other using a colour palette generated from a portion of the header (logo) image ![Color Sample](assets/images/color-sample.PNG) using [PaletteGenerator](https://palettegenerator.com/). The colours are light where necessary and dark where possible to blend with the header image logo. I have been concerned primarily with making the booking buttons stand out and seem obvious for visually impaired users and avoid the need for too much scrolling to reach the highest priority content. The navigation remains sticky so that returning to the top or a differnt section is easy.
 
-For users that may not necessarily be wanting to make an appointment on their first visit but are instead looking for credibility or curisoity, I have added three sections. A **Testimonials** section; set as a blockquote card carousel on a mobile device but as a card column from medium screens. An **About** section introduces the owner. This section gives credibilty and presents the owners capability and qualifications in an understated manner but promotes her passion and finally, a **Contact** section with a contact form along with contact information. I mention here that although I could have added a map, I resisted doing so from a safety perspective as this I consider to be sensitive information since this is a home-based business.
+The fonts chosen for this site were taken from [Google Fonts](https://fonts.google.com/). They were selected as they are simple, easy to read and quick to load.
+
+For users that may not necessarily be wanting to make an appointment on their first visit but are instead looking for credibility or out of curisoity, I have added three sections. A **Testimonials** section; set as a blockquote card carousel on a mobile device but as a card column from medium screens. An **About** section introduces the owner. This section gives credibilty and presents the owners capability and qualifications in an understated manner while emphasising her passion in her work and finally, a **Contact** section with a contact form along with contact information. I mention here that although I could have added a map, I resisted doing so from a safety perspective as this I consider to be sensitive information since this is a home-based business.
 
 Between the About and Contact sections is another booking button for users that have been satisfied and are ready to book an appointment.
 
-Throughout the development I have switched up and down screen sizes using Chrome dev tools to see how I can improve the user experience, based on a mobile-first approach. The owner believes that a large portion of her users are likely to access the site mostly on a mobile device for the purpose of easily booking an appointment and to browse the gallery for ideas and curiosity; however as many people use desktops to work, the potential was also considered for users to access it whilst working. We expect that if the site is user-friendly on a mobile device this may end up being their preferred medium.
+Throughout the development I have switched up and down screen sizes using Chrome dev tools to see how I can improve the user experience, based on a mobile-first approach. The owner believes that a large portion of her users are likely to access the site mostly on a mobile device for the purpose of easily booking an appointment and to browse the gallery for ideas; however as many people use desktops at work, the potential was also considered for users to access it during working hours. 
 
 The most obvious thing a user will see first on their mobile is a booking button, as the 'welcome' message appears only on medium size screens and above. The button will open up a new tab to the owners [Setmore](https://www.setmore.com/) scheduling account.
 
-The gallery is presented in a carousel on all screen sizes as this allows for the quantity of content to increase without affecting layout or create the need to scroll.
+The gallery is presented in a carousel on all screen sizes as this allows for the quantity of content to increase without affecting layout or cause the need to scroll.
 
 
 #### Features
@@ -31,14 +33,14 @@ The bootstrap navbar is collapsible to a hamburger menu icon on small devices an
 Apart from acting as a business card and marketing site, the most advantageous feature to implement was the online appointment bookings. Within the options that I found that were free, is a widget by [Setmore](https://setmore.com) that could be added to the website. [Setmore](https://setmore.com) has a basic version that provides sufficient functionality resulting in the users being empowered to book their own appointments 24/7. Once the free version no longer adequately meets the business and/or owners needs, it can be scaled up to a paid version; however, the free version also allows for up to four staff logins so may remain suitable for the foreeable future. In addition, I want to make mention of the notifications feature included in the free version, which took care of an item previously listed under the future features section of this document.
 
 ##### Bootstrap Carousel
-This was the most ideal way for the owners portfolio of work to be presented and for the testimonials to be displayed on a small screen to avoid taking up too much real estate on the site. Again, it allows for upscaling while avoiding any real diffcultly.
+This was the most ideal way for the owners portfolio of work to be presented and for the testimonials to be displayed on a small screen to avoid taking up too much real estate on the site. Again, it allows for upscaling with minimum changes.
 
 
 ##### New Client in-take form
-Due to the varying user capabilities it was necessary for this form to be inclusive. As an external link it can be completed online and either emailed or printed to be taken to the first appointment. It was not a necessity from the owners perspective but a nice time saver that was easily incorporated. The download button is found at the bottom of the page in the footer due to its low importance. The form is not obligatory but can be used to save time on a first appointment.
+Due to the varying user capabilities it was necessary for this form to be inclusive. As an external link it can be completed online and either emailed or printed to be taken to the first appointment. It was not a necessity from the owners perspective but a nice time saver that was easily incorporated. The download button is found at the bottom of the page in the footer due to its low importance. The form is not obligatory but can be used to save time on a first appointment. A tooltip provides the user with more information on it's purpose.
 
 ##### Favicon
-This has been moved from the Future planned features to Features as one was designed for the website for me. I really felt that it was something important when this website was the only tab missing it in a window full of open tabs. There is a ![16x16 favicon](assets/images/favicon-16x16.png?raw=true) for the web browser and a ![32x32 icon](assets/images/favicon-32x32.png) for dragging to the homescreen of an iphone. This feature increases the brand identity and credibility.
+This has been moved from the Future planned features to Features as one was designed for the website for me. I really felt that it was something important when this website was the only tab missing it in a window full of open tabs. This is the web browser favicon ![16x16 favicon](assets/images/favicon-16x16.png?raw=true), and this is linked in the ```head``` to apple-touch for dragging to the homescreen of an iphone.  ![32x32 icon](assets/images/favicon-32x32.png) This feature increases the brand identity and credibility.
 
 ##### Contact form
 The contact form allows a user to request some information that is not currently available on the site. As soon as a verified form has been submitted successfully, an email notification get sent to the email address configured.
@@ -46,14 +48,15 @@ The contact form allows a user to request some information that is not currently
 
 #### Features Left to Implement in the future.
 
-In stretch 2, I would like to improve the way the gallery is displayed. Possibly with the images fading in rather than sliding and with curved corners. I will review the CSS animations and transistion module to do this.
+In stretch 2, I would like to improve the way the gallery is displayed. Possibly with the images fading in rather than sliding and with curved corners. I did make an attempt to round the corners of the imaages but at this stage I lack the knowledge necessary.
 
 I would also like to add a modal. After a period of inctivity the modal will appear prompting the user to book an appointment. I feel this is something that needs some research with regards to the delay time in order not to annoy the users. I will mostly likely use Bootstrap for this.
 
 FAQ's. A nice to have fetaure for future implementation. Once the owner has a collection of questions substantial enough to warrant the time, this feature can be added.
 
 ##### Future feature ideas will be added here as they come up.
-In the future, as the content and business grows, the site will be split into individual pages with additional pages added, such as a Products page, as the owner is planning her own line of products that she will advertise and sell from her site. Shopify and PayPal are the technologies that are currently drafted into the plans for this.
+
+In the future, as the content and business grows, the site should be split into individual pages so that additional pages can be added, such as a Products page, as the owner is planning her own line of products that she will advertise and sell from her site. Shopify and PayPal are the technologies that are currently drafted into the plans for this.
 
 #### Technologies used
 1. HTML5
@@ -66,7 +69,7 @@ In the future, as the content and business grows, the site will be split into in
 
 #### Testing
 
-In order to ensure the site works as intended, I have conducted the following manual tests on phones, tablets and desktops,  using Chrome, Safari, Firefox, Internet Explorer, Edge and Opera. I enlisted the help of several people using different devices than I, so that I had a reasonable sample. I believe the best result in respect of speed in every case was from Chrome and Google. Safari and Firefox were much slower to load and with Opera mini, the contact section only downloaded fully after using the navigation link, when it was instantaneous.
+In order to ensure the site works as intended, I have conducted the following manual tests on phones, tablets and desktops,  using Chrome, Safari, Firefox, Internet Explorer, Edge and Opera. I enlisted the help of several people using different devices than I, so that I had a reasonable sample. I believe the best result in respect of speed in every case was from Chrome and Google. Safari and Firefox were much slower to load and with Opera mini, the contact section only downloaded fully after using the navigation link, whereafter it was instantaneous.
 
 1. Features
 
@@ -74,11 +77,11 @@ In order to ensure the site works as intended, I have conducted the following ma
 
 2. Links
 
-    All the button links have been tested to go to the expected destination and open in a new brower tab and therefore also avoid the need for using the browser back button.
+    All the button links have been tested to go to the expected destination and open in a new brower tab and avoid the need for the browser back button.
 
 3. Download
 
-    The download icon hover prompts a tooltip and opens into a new browser tab on click. !!!! still to add!!! 
+    The download icon hover prompts a tooltip and opens into a new browser tab on click.
 
 4. Navigation
 
@@ -86,12 +89,12 @@ In order to ensure the site works as intended, I have conducted the following ma
 
 5. Contact
 
-    The contact form requires input validation. The bot-field works and a success notifcation is displayed on submit. An email is sent to the owner on each valid form submission. I originally had a recaptcha 2 challenge but as this wasn't working I replaced it with the hidden bot-field as a measure of spam protection.  In order to test the bot-field I temporarily replaced the ```visibility: hidden``` to```visibility: visible```. During this phase, I had to reposition the submit button so that the form layout wasn't affected. I placed the submit button inside a 2 column row so that they were adjacent and this meant I could remove the bottom margin that I had initially used to create space beneath the button. I will continue to address the issue of the recptacha challenge and try and find a solution or cause.
+    The contact form requires input validation. The bot-field works and a success notifcation is displayed on submit. An email is sent to the owner on each valid form submission. I originally had a recaptcha 2 challenge but as this wasn't working I replaced it with the hidden bot-field as a measure of spam protection.  In order to test the bot-field I temporarily replaced the ```visibility: hidden``` to```visibility: visible```. During this phase, I decided to reposition the submit button so that the form layout wasn't affected. By placing the submit button inside a 2 column row so that they were adjacent to eachother, I could remove the bottom margin that I had initially used to create space beneath the button. I will continue to address the issue of the recptacha challenge and try and find a solution or cause.
 
-As I have used the Bootstrap frame work whch has automatically provided me with breakpoints for responsiveness, I used Chrome developer tools to test the various screen resolutions. However, I was able to get the site tested on a 5k resolution and was sent a screencast, which I found to be quite disappointing. Revisiting the users and user stories, I have decided not to spend any time on resolving the issues at present as the target market is highly unlikely to be viewing the site on such a large screen. The result though, was that the logo image only filled 60% of the screen (very fixable as I reduced the size considerably), the text was extemely small and the footer did not stick to the bottom even though I have used the html footer element. I intend to find out how to render the content to fill the viewport height and width in stretch 2 once my project has been assessed, as a learning opportunity. I am speculating at this point that this is something to do wwith the browser preventing a compromise on quality but it will be an interesting discovery to make.
+As I have used the Bootstrap frame work which has automatically provided me with breakpoints for responsiveness, I used Chrome developer tools to test the various screen resolutions. However, I was able to get the site tested on a 5k resolution and was sent a screencast, which I found to be quite disappointing. Revisiting the users and user stories, I have decided not to spend any time on resolving this issue at present as the target market is highly unlikely to be viewing the site on such a large screen. The result though, was that the logo image only filled 60% of the screen (very fixable as I reduced the size considerably), the text was extemely small and the footer did not stick to the bottom even though I have used the html footer element. I intend to find out how to render the content to fill the viewport height and width in stretch 2 once my project has been assessed, as a learning opportunity. I am speculating at this point that this is something to do wwith the browser preventing a compromise on quality but it will be an interesting discovery to make. I did see whether making the footer fixed would work but found that it took up to much of the screen with both the navigation and footer fixed so that isn't a suitable solution.
 
 Owners feedback on testing her deployed site:
->
+>   "I have tested the link for the live website and I am very happy overall. I prefer the gallery as it is rather than as we originally planned it.  The testimonals are much better as a slide show on a phone as they originally took up too much space being one beneath the other.  I did notice that the header image loads quite slowly but that could be my slow internet. I tried all of the buttons and everything that can be clicked and it all worked perfectly and everything loaded onto the page. I used Safari, Firefox and Chrome on a macbook and iphone 8. The extra things like the icon in the browser that have been added are awesome."
 
 
 
