@@ -4,9 +4,14 @@
 
 I am developing this website as my MS1 project (Code Institute's Dimploma in Software Development) and for the owner, with a focus on providing the users with information about her service via her portfolio in a gallery and specifically for them to easily make and manage their own appointments independently, from within the site itself. The business goal is to free the owner up to concentrate her time solely (as far as is reasonably possible) on the clients in front of her rather than the administrative aspect of her business. This site is a *work in progress* that will be updated with new content added and/or removed when necessary and appropriate.
 
+
 ##### UX
 
-Since the audience is expected to be of varying ability, albeit mostly tech savvy, my aim in the design was simplicity, creating an intuitive site that provides easy access to the main purpose - the information or feature the user is looking for. I have made the sections visually distinguishable and separate from each other using a colour palette generated from a portion of the header (logo) image ![Color Sample](assets/images/color-sample.PNG) using [PaletteGenerator](https://palettegenerator.com/). The colours are light where necessary and dark where possible to blend with the header image logo. I have been concerned primarily with making the booking buttons stand out and seem obvious for visually impaired users while maintaing the soft appearance created by the colour palette and also to avoid the need for too much scrolling to reach the highest priority content. The navigation remains sticky so that returning to the top, or a different section, is easy.
+Since the audience is expected to be of varying ability, albeit mostly tech savvy, my aim in the design was simplicity, creating an intuitive site that provides easy access to the main purpose - the information or feature the user is looking for. I have made the sections visually distinguishable and separate from each other using a colour palette generated from a portion of the header (logo) image using [PaletteGenerator](https://palettegenerator.com/). 
+
+![Color Sample](assets/images/color-sample.PNG)  
+
+The colours are light where necessary and dark where possible to blend with the header image logo. I have been concerned primarily with making the booking buttons stand out and seem obvious for visually impaired users while maintaing the soft appearance created by the colour palette and also to avoid the need for too much scrolling to reach the highest priority content. The navigation remains sticky so that returning to the top, or a different section, is easy.
 
 The fonts chosen for this site were taken from [Google Fonts](https://fonts.google.com/). They were selected as they are simple, easy to read and quick to load.
 
@@ -149,4 +154,6 @@ When I broached the subject of making her a website for my Milestone 1 Project, 
 
 ##### Copyright
 I have added a copyright notice in the footer as the site and all the content belongs to Samantha Salamon and the images present her portfolio of work.
+
+The original wireframes can be view [here](wireframes)
 
