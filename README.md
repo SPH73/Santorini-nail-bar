@@ -6,7 +6,7 @@ I am developing this website as my MS1 project (Code Institute's Dimploma in Sof
 
 ##### UX
 
-Since the audience is expected to be of varying ability, albeit mostly tech savvy, my aim in the design was simplicity, creating an intuitive site that provides easy access to the main purpose - the information or feature the user is looking for. I have made the sections visually distinguishable and separate from each other using a colour palette generated from a portion of the header (logo) image ![Color Sample](assets/images/color-sample.PNG) using [PaletteGenerator](https://palettegenerator.com/). The colours are light where necessary and dark where possible to blend with the header image logo. I have been concerned primarily with making the booking buttons stand out and seem obvious for visually impaired users and avoid the need for too much scrolling to reach the highest priority content. The navigation remains sticky so that returning to the top or a differnt section is easy.
+Since the audience is expected to be of varying ability, albeit mostly tech savvy, my aim in the design was simplicity, creating an intuitive site that provides easy access to the main purpose - the information or feature the user is looking for. I have made the sections visually distinguishable and separate from each other using a colour palette generated from a portion of the header (logo) image ![Color Sample](assets/images/color-sample.PNG) using [PaletteGenerator](https://palettegenerator.com/). The colours are light where necessary and dark where possible to blend with the header image logo. I have been concerned primarily with making the booking buttons stand out and seem obvious for visually impaired users while maintaing the soft appearance created by the colour palette and also to avoid the need for too much scrolling to reach the highest priority content. The navigation remains sticky so that returning to the top, or a different section, is easy.
 
 The fonts chosen for this site were taken from [Google Fonts](https://fonts.google.com/). They were selected as they are simple, easy to read and quick to load.
 
@@ -97,6 +97,20 @@ Owners feedback on testing her deployed site:
 >   "I have tested the link for the live website and I am very happy overall. I prefer the gallery as it is rather than as we originally planned it.  The testimonals are much better as a slide show on a phone as they originally took up too much space being one beneath the other.  I did notice that the header image loads quite slowly but that could be my slow internet. I tried all of the buttons and everything that can be clicked and it all worked perfectly and everything loaded onto the page. I used Safari, Firefox and Chrome on a macbook and iphone 8. The extra things like the icon in the browser that have been added are awesome."
 
 
+I used [W3C Markup Validation Service](https://validator.w3.org/) to check my html code. The errors I could not reslolve were related to my contact form. 
+
+    Error: Attribute netlify-honeypot not allowed on element form at this point.
+    Error: Attribute netlify not allowed on element form at this point.
+    
+However, these attributes come directly from the Netify documentation and without them the form will not work.
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
 
 #### Deployment
 The site is deployed on GitHub pages as well as Netlify (via GitHub) from the master branch and will update automatically upon new commits. They can be accessed via https://sph73.github.io/Santorini-nail-bar/ and https://santorininailsofficial.netlify.com/ The reason, I have used different names is to avoid confusion at a later date once the owner has her site hosted on Netlify as a custom domain.
@@ -135,6 +149,4 @@ When I broached the subject of making her a website for my Milestone 1 Project, 
 
 ##### Copyright
 I have added a copyright notice in the footer as the site and all the content belongs to Samantha Salamon and the images present her portfolio of work.
-
-
 

@@ -5,7 +5,8 @@ font-family: 'Lato', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
 
-/*colours
+/* 
+colours
 #7d7d89 - grey rgb(125,125,137)
 #5d5860 - dark grey rgb(93,88,96)
 #ac9eb2 - pink grey rgb(172,158,178)
@@ -17,6 +18,10 @@ font-family: 'Raleway', sans-serif;
 #fcf9fc - white-dazzle (button hover)
 */
 
+/*
+WHITE SPACES AND PAGE STYLING
+*/
+
 html,
 body {
     width: 100%;
@@ -26,19 +31,16 @@ body {
     overflow-x: hidden;
 }
 
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 
 
-
-
-
-
-
-
-/*----------background-colours / font-colours---*/
+/*
+COLOURS
+*/
 
 .bg-color-alert,
 .bg-color-nav,
@@ -59,7 +61,9 @@ body {
     background-color: #f8f1f9;
 }
 
-/*-------------------------------buttons---*/
+/*
+BUTTONS
+*/
 
 .btn {
     font-weight: 600;
@@ -86,12 +90,9 @@ body {
 
 
 
-
-
-
-
-
-/*----------------------------headings---*/
+/*
+HEADINGS
+*/
 
 h1,
 h2,
@@ -109,7 +110,9 @@ h5 .section-heading {
     font-weight: 300;
 }
 
-/*-------------------------------alert---*/
+/*
+ALERT
+*/
 
 .alert {
 
@@ -126,11 +129,10 @@ h5 .section-heading {
     margin: .5rem 0;
 }
 
-/*----------------------------------header image---*/
 
-
-
-/*----------------------------------nav---*/
+/*
+NAV
+*/
 
 .sticky {
     position: sticky;
@@ -163,7 +165,9 @@ button:focus {
 
 
 
-/*----------------------------sections----*/
+/*
+SECTIONS
+*/
 
 .home,
 .gallery,
@@ -199,15 +203,16 @@ testimonials .card-header {
 }
 
 
-/*----------contact form---*/
+/*
+CONTACT FORM
+*/
+
 .bot-field {
     visibility: hidden;
 }
 
 
-/*-------------------------------footer---*/
-
-/*----------footer icons---*/
+/*FOOTER*/
 
 footer{
 
