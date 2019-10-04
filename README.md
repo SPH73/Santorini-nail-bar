@@ -100,7 +100,8 @@ In order to ensure the site works as intended, I have conducted the following ma
 
 4. Navigation
 
-    The navbar remains in the desired ```position: sticky;``` ```top: 0;``` when scrolling and the links take the user to the expected section of the page. This was important for a single scrolling page and in order to achieve this I needed to remove the ```<nav>``` from the ```<header>``` and place it just beneath.
+    The navbar remains in the desired ```position: sticky;``` ```top: 0;``` when scrolling and the links take the user to the expected section of the page. This was important for a single scrolling page and in order to achieve this I needed to remove the ```<nav>``` from  ```<header>``` and place it just beneath.
+    The problem with the collapsed navbar dropdown when on mobile screens is that when it is clicked to go to another section of the page it stays open and this is a problem when it is dark as it hides the content underneath. As I don't know how to resolve that I can't do anything about it and the navbar needs to be clicked again to hide it. Another student has given me a work around with some custom java script as this is a really bad user experience and cannot be left. 
 
 5. Contact
 
