@@ -169,27 +169,47 @@ SECTIONS
     font-weight: 300;
 }
 
+img .gallery{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+.card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
 
-.testimonials .card {
+}
+
+.card {
     margin: 10px 0;
-    padding: 10px;
+    padding: 5px;
+    height: 300px;
+    flex-shrink: 0;
 }
 
 
-testimonials .card-header {
+.card-header {
     font-family: 'Raleway', sans-serif;
     font-size: .75rem;
 }
 
 
-.testimonials .card .blockquote {
+.card .blockquote {
     font-weight: 600;
+    font-size: 14px;
 }
+
 
 .about-bio p{
     display: block;
     margin-top: 20px;
-    
+    padding-top: 1rem;
 }
 
 
