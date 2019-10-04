@@ -1,22 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway:300,400,500,600,800&display=swap');
 
-/*
-font-family: 'Lato', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
 
-/* 
-colours
-#7d7d89 - grey rgb(125,125,137)
-#5d5860 - dark grey rgb(93,88,96)
-#ac9eb2 - pink grey rgb(172,158,178)
-#f8f1f9 - white shade rgb(248,241,249)
-#323038 - charcoal rgb(50,48,56)
-#090b0e - black rgb(9,11,14)
-#e2d9e4 - pale-lilac
-#605d65 - darker pink grey (icon hover)
-#fcf9fc - white-dazzle (button hover)
-*/
 
 /*
 WHITE SPACES AND PAGE STYLING
@@ -214,9 +198,6 @@ CONTACT FORM
 
 /*FOOTER*/
 
-footer{
-
-}
 
 .copyright {
     font-size: 8px;
