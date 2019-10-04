@@ -5,7 +5,7 @@
 I am developing this website as my MS1 project (Code Institute's Dimploma in Software Development) and for the owner, with a focus on providing the users with information about her service via her portfolio in a gallery and specifically for them to easily make and manage their own appointments independently, from within the site itself. The business goal is to free the owner up to concentrate her time solely (as far as is reasonably possible) on the clients in front of her rather than the administrative aspect of her business. This site is a *work in progress* that will be updated with new content added and/or removed when necessary and appropriate.
 
 
-##### UX
+#### UX
 
 **As an existing cient, I want to be able to see what appointment days/times are available and choose to suit my schedule. I don't want to have to wait or call to make an appointment and I prefer to book a regular spot so they I can plan around my schedule.** 
 
@@ -15,23 +15,23 @@ The booking button allows this type of user to do this effectively the moment th
 
 This type of user can achieve all this because the site shows a sample of the nail bar owners portfolio in the gallery which shows genuine samples of work done and the testimonials give verifiable recommendations as they mention where they were made and as the social media links are in the footer they can go directly there.
 
-The about section provides this user with a feel for the nail technicians personality so they decide whether they feel comfortable before actually making an appointment. If so, they can go ahead and make a booking using the button located above the contact section. If this user still wishes to find out something else frst, they can ask using the contact form, which also lets them know the form as been received with a submit notification. In addition, they can also use the calendar icon in the footer button. As the navigation is sticky they can easily navigate back to the gallery or the home section where there is another booking button. 
+The about section provides this user with a feel for the nail technicians personality so they decide whether they feel comfortable before actually making an appointment. If so, they can go ahead and make a booking using the button located above the contact section. If this user still wishes to find out something else frst, they can ask using the contact form, which also lets them know the form as been received with a submit notification. In addition, they can also use the calendar icon in the footer. As the navigation is sticky, they can easily navigate back to the gallery or the home section where there is another booking button. 
 
-**I am a user that offers a complimentary service and I would like to find a nail bar that would be interested in joining forces with me.** 
+**As a user that offers a complimentary service and I would like to find a nail bar that would be interested in joining forces with me.** 
 
 The website makes it easy for this user to connect with the owner or make a request by using the contact section and/or form and to connect on social media using the footer icons.
 
 
-Since the audience is expected to be of varying ability and need, albeit mostly tech savvy, my aim in the design was simplicity, creating an intuitive site that provides easy access to their main purpose - the information or feature the user is looking for. I have made the sections visually distinguishable and separate from each other using a colour palette generated from a portion of the header (logo) image using [PaletteGenerator](https://palettegenerator.com/). 
+Since the target audience is expected to be of varying ability and need, albeit mostly tech savvy, my aim in the design was simplicity; creating an intuitive site that provides easy access to their main purpose, namely, the information or feature the user is looking for. I have made the sections visually distinguishable and separate from each other using a colour palette generated from a portion of the header (logo) image using [PaletteGenerator](https://palettegenerator.com/). 
 ![Color Sample](assets/images/color-sample.PNG)  
 
 The colours are light where necessary and dark where possible to blend with the header image logo. I have been concerned primarily with making the booking buttons stand out and seem obvious for visually impaired users because I wanted to create a soft appearance created by the use of colour. I also tried to avoid the need for too much scrolling to reach the highest priority content for each user type. The navigation position is sticky so that it is always in view making it easy to go somewhere else; to the top, or a different section.
 
 The fonts chosen for this site were taken from [Google Fonts](https://fonts.google.com/). They were selected as they are simple, clear and easy to read and quick to load.
 
-For users that may not necessarily be wanting to make an appointment on their first visit but are instead looking for credibility or out of curiosity, I have added three sections. A **Testimonials** section; set as a blockquote card carousel on a mobile device but as a card column on a tablet and desktop. An **About** section introduces the owner. This section gives credibilty and presents the owners capability and qualifications in an understated manner while emphasising her passion in her work and finally, a **Contact** section with a contact form along with contact information. I mention here that although I could have added a map, I resisted doing so from a safety perspective as this I consider to be sensitive information for a home-based business.
+For users that may not necessarily be wanting to make an appointment on their first visit but are instead looking for credibility or out of curiosity, I have added three sections. A **Testimonials** section; set as a blockquote card carousel on a mobile device but as a card column on a tablet and desktop. An **About** section introduces the owner. This section gives credibilty and presents the owners capability and qualifications in an understated manner while emphasising her passion in her work and finally, a **Contact** section with a contact form along with contact information. I mention here that although I could have added a map, I resisted doing so from a safety perspective as this I consider to be sensitive information for a home-based business. The area is referenced which is ample information for someone looking to find a nail bar within close proximity.
 
-Throughout the development I have switched up and down screen sizes using Chrome dev tools to see how I can improve the user experience, based on a mobile-first approach. The owner believes that a large portion of her users are likely to access the site mostly on a mobile device for the purpose of easily booking an appointment and to browse the gallery for ideas; however as many people use desktops at work, the potential was also considered for users to access it during working hours. 
+Throughout the development I have switched up and down screen sizes using Chrome dev tools to see how I can improve the user experience, based on a mobile-first approach. The owner believes that a large portion of her users are likely to access the site predominantly on their mobile device for the purpose of easily booking an appointment and to browse the gallery for ideas; however as many people use desktops at work, the potential was also considered that users were likely to access it during working hours using their workstations. 
 
 The most obvious thing a user will see first on their mobile is a booking button, as the 'welcome' message appears only on medium size screens and above. The button will take the user to the owners [Setmore](https://www.setmore.com/) scheduling account opening up in a new browser window.
 
@@ -55,15 +55,15 @@ This was the most ideal way for the owners portfolio of work to be presented and
 Due to the varying user capabilities it was necessary for this form to be inclusive. As an external link it can be completed online and is automatically sent to the owner. It was not a necessity from the owners perspective but a nice time saver that was easily incorporated. The download button is found at the bottom of the page in the footer due to its low importance. The form is not obligatory but can be used to save time on a first appointment. A tooltip provides the user with more information on it's purpose.
 
 ##### Favicon
-This has been moved from the Future planned features to Features as one was designed for the website for me. I really felt that it was something important when this website was the only tab without it in a window full of open tabs. This is the web browser favicon ![16x16 favicon](assets/images/favicon-16x16.png?raw=true), and this is linked in the ```head``` to apple-touch for dragging to the homescreen of an iphone. ![32x32 icon](assets/images/favicon-32x32.png). This feature increases the brand identity and credibility.
+This has been moved from the Future planned features to Features as one was designed for the website for me. I really felt that it was something important when this website was the only tab without it in a window full of open tabs. This is the web browser favicon ![16x16 favicon](assets/images/favicon-16x16.png?raw=true) a 16x16 image, and this favicon ![32x32 icon](assets/images/favicon-32x32.png) is linked in the ```head``` to apple-touch for dragging to the homescreen of an iphone. This feature increases the brand identity and credibility. I researched the standard for this in [W3C](https://www.w3.org/2005/10/howto-favicon) 
 
 ##### Contact form
-The contact form allows a user to request some information that is not currently available on the site. As soon as a verified form has been submitted successfully, an email notification get sent to the email address configured.
+The contact form allows a user to request some information that is not currently available on the site. As soon as a verified form has been submitted successfully, an email notification is sent to the email address configured.
 
 
 #### Features Left to Implement in the future.
 
-In stretch 2, I would like to improve the way the gallery is displayed. Possibly with the images fading in rather than sliding and with curved corners. I did make an attempt to round the corners of the imaages but at this stage I lack the necessary knowledge.
+In stretch 2, I would like to improve the way the gallery is displayed. Possibly with the images fading in rather than sliding and with curved corners. I did make an attempt to round the corners of the images but at this stage I lack the necessary knowledge.
 
 I would also like to add a modal. After a period of inctivity the modal will appear prompting the user to book an appointment. I feel this is something that needs some research with regards to the delay time in order not to annoy the users. I will mostly likely use Bootstrap for this.
 
@@ -135,7 +135,7 @@ The site is deployed on GitHub pages as well as Netlify (via GitHub) from the ma
 
  
 #### Credits
-I have used the documentation and/or tutorials in [Bootstrap4](https://getbootstrap.com/docs/), [W3C](https://www.w3.org/) and [Netlify](https://www.netlify.com/docs/) in order to produce this site as well the mini-project and resume project from the Full Stack Web Development Course from Code Institute.
+I have used the documentation and/or tutorials in [Bootstrap4](https://getbootstrap.com/docs/), [W3C](https://www.w3.org/) and [Netlify](https://www.netlify.com/docs/) in order to produce this site as well the mini-project and resume project from the User Centric Front End Devleopment module in the Full Stack Web Development Course from Code Institute.
 
 The footer icons in the resume project I really liked and felt that they fitted the site well with small modifications to the color theme and size only.
 
@@ -160,7 +160,7 @@ The alert banner from the mini-project gave me the idea for the news banner for 
 
 #### Acknowledgements
 
-I was inspred to develop this project as I have a young daughter, Samantha Salamon, who has just completed her Diploma in Somatoloogy and who already has other certifications in the beauty industry. Aware of the fact that she had aspirations to be self-employed with a work-from-home small business, proven through the actions she has already taken, my own desire was fueled to assist her with a website that would assist her by reducing the workload and stress that a business would place on her. Her strengths are her artistic creativity and her weakeness (by her own admission) is the administrative function. Moreover, it is difficult to take calls and bookings whilst actively working on a clients nails. As much as I am able, I wish to remove this challenge for her by placing the relevant features within her own website. 
+I was inspired to develop this project as I have a young daughter, Samantha Salamon, who has just completed her Diploma in Somatoloogy and who already has other certifications in the beauty industry. Aware of the fact that she had aspirations to be self-employed with a work-from-home small business (expressed through the actions she has already taken), my own desire was fueled to provide her with a website that would assist her by reducing the workload and stress that a business would place on her. Her strengths are her artistic creativity and her weakeness (by her own admission) is the administrative function. Moreover, it is difficult to take calls and bookings whilst actively working on a clients nails. As much as I am able, I wish to remove this challenge for her by placing the relevant features within her own website. 
 
 When I broached the subject of making her a website for my Milestone 1 Project, she was extremely enthusiastic and has been reviewing the project development throughout, so I feel this has been a collaborative effort between us and deserves mentioning.
 
