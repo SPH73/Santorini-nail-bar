@@ -101,6 +101,9 @@ As I have used the Bootstrap frame work which has automatically provided me with
 Owners feedback on testing her deployed site:
 >   "I have tested the link for the live website and I am very happy overall. I prefer the gallery as it is rather than as we originally planned it.  The testimonals are much better as a slide show on a phone as they originally took up too much space being one beneath the other.  I did notice that the header image loads quite slowly but that could be my slow internet. I tried all of the buttons and everything that can be clicked and it all worked perfectly and everything loaded onto the page. I used Safari, Firefox and Chrome on a macbook and iphone 8. The extra things like the icon in the browser that have been added are awesome."
 
+Based on feedback that I received I compressed the ```<header>``` hero image using [TinyJPG](https://tinyjpg.com/) and I spent an enormous amount of time trying to adjust the testimonial cards to equal height using css. I found that in a responsive layout was better to allow the ```flex: 1 1 auto``` rules to apply even though it doesn't give the best user experience being of unequal height. Perhaps in the future this will be something I will manage but for the sake of not running out of time I had to accept and settle.
+
+I also added padding above the bio text to balance with the lead text of the gallery.
 
 I used [W3C Markup Validation Service](https://validator.w3.org/) to check my html code. The errors I could not reslolve were related to my contact form. 
 
