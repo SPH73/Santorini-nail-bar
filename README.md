@@ -101,7 +101,7 @@ In order to ensure the site works as intended, I have conducted the following ma
 4. Navigation
 
     The navbar remains in the desired ```position: sticky;``` ```top: 0;``` when scrolling and the links take the user to the expected section of the page. This was important for a single scrolling page and in order to achieve this I needed to remove the ```<nav>``` from  ```<header>``` and place it just beneath.
-    The problem with the collapsed navbar dropdown when on mobile screens is that when it is clicked to go to another section of the page it stays open and this is a problem when it is dark as it hides the content underneath. As I don't know how to resolve that I can't do anything about it and the navbar needs to be clicked again to hide it. Another student has given me a work around with some custom java script as this is a really bad user experience and cannot be left as it is. Please see reference in Credits. 
+    The problem with the collapsed navbar dropdown when on mobile screens is that when it is clicked to go to another section of the page it stays open and this is a problem when it is dark as it hides the content underneath. As I don't know how to resolve that, I can't do anything about it and the navbar needs to be clicked again to hide it. Another student has given me a work around with some custom java script as this is a really bad user experience and cannot be left as it is. It still isn't perfect as a bit of the content is remains hidden by the navbar but it is a lot better. I have not been able to resolve it before the deadline. Please see reference in Credits. 
 
 5. Contact
 
@@ -159,7 +159,7 @@ The alert banner from the mini-project gave me the idea for the news banner for 
 **The contact form** utilises [Netlify's](https://www.netlify.com/docs/form-handling/) built-in form handling . On the free plan there is a monthly allowance of 100 submissions per month which is currently more than adequate.
 
 #### Navigation
-Custom javascript provided by Anthony 0'Brien to mae the navigation collapse again after a nav list item has been clicked.
+Custom javascript provided by Anthony 0'Brien to make the navigation collapse again after a nav list item has been clicked.
 
 
 #### Acknowledgements
