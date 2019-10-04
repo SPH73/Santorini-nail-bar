@@ -186,6 +186,12 @@ testimonials .card-header {
     font-weight: 600;
 }
 
+.about-bio p{
+    display: block;
+    margin-top: 20px;
+    
+}
+
 
 /*
 CONTACT FORM
